@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F7F1E3; /* Warm Beige */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Name Card Container */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.name-card {
+    background-color: #FFFFFF; /* Soft White */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Profile Image */
+.profile-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 2px solid #A3CB38; /* Olive Green */
+}
+
+/* Name & Title */
+.name-card h1 {
+    font-size: 1.6rem;
+    color: #3E2723; /* Dark Brown */
+    margin-bottom: 5px;
+}
+
+.name-card .title {
+    font-size: 1rem;
+    color: #7A6E5D;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Save Contact Button */
+.btn.save {
+    background-color: #A3CB38;
+    color: #FFFFFF;
+}
+
+.btn.save:hover {
+    background-color: #7DA32B;
+}
+
+/* View Portfolio Button */
+.btn.portfolio {
+    background-color: #3E2723;
+    color: #FFFFFF;
+}
+
+.btn.portfolio:hover {
+    background-color: #2C1E18;
+}
